@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - bajorapp
 on:
   push:
     branches:
-      - master
+      - bajorstaging
   workflow_dispatch:
 
 jobs:
